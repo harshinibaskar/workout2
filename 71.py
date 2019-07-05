@@ -1,5 +1,4 @@
-high=input()
-if(z1==(high[::-1])):
-   print("yes")
+dak=input()
+if(dak==dak[::-1]):
+ print("yes")
 else:
-   print("no")

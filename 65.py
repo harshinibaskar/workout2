@@ -1,0 +1,2 @@
+nile=input()
+print(nile)

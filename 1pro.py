@@ -6,7 +6,7 @@ for h in range(0,ra1):
 ra3=[]
 for h in zip(*ra2):
  if(h.count(h[0])==len(h)):
-  r3.append(h[0])
+  ra3.append(h[0])
  else:
   break
 print(''.join(ra3))

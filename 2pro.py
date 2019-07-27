@@ -5,4 +5,4 @@ ra2 = []
 hj = combinations(numb,len(numb)-ra1)
 for d in hj:
     ra2.append("".join(d))
-print(min(r2))
+print(min(ra2))

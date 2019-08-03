@@ -1,9 +1,9 @@
-get=int(input())
-set=list(map(int,input().split()))
+ready=int(input())
+steady=list(map(int,input().split()))
 go=0
-for one1 in range(get):
-    for two2 in range(one1,get):  
-        for three3 in range(two2,get):
-            if set[one1]<set[two2]<set[three3]:
+for one1 in range(ready):
+    for two2 in range(one1,ready):  
+        for three3 in range(two2,ready):
+            if steady[one1]<steady[two2]<steady[three3]:
                 go+=1
 print(go)
